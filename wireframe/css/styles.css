@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .container{
     width: 1328px;
     margin: auto;
@@ -70,6 +71,10 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.posts .card{
+    width: 360px;
+}
+
 .posts img{
     border-radius: 20px 20px 0 0;
 }
@@ -96,4 +101,64 @@ nav ul li a:hover{
     padding: 10px 24px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.posts a:hover{
+    background: #574487;
+}
+
+.posts .footer-card{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-top .container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-top: 1px solid #CAC4D0;
+
+}
+
+.footer-top a{
+    display: block;
+    margin-bottom: 56px;
+    color: #1D1B20;
+    text-decoration: none;
+}
+
+.novidades h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 64px;
+}
+
+.novidades .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 64px;
+}
+
+.time .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.time .card h3{
+    text-align: center;
+}
+.time .card h4{
+    text-align: center;
+}
+.time{
+    margin-bottom: 60px;
 }
