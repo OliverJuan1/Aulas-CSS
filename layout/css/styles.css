@@ -310,61 +310,91 @@ nav ul li {
     margin-bottom: 27px;
 }
 
-footer .container{
+footer .container {
     margin: 27px auto;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-group-links a{
-   display: flex;
+.footer-group-links a {
+    display: flex;
     margin-bottom: 15px;
     color: #313131;
     text-decoration: none;
 }
 
-.footer-group-links ul{
+.footer-group-links ul {
     list-style: none;
 }
 
 
-footer .container.top{
+footer .container.top {
     border-top: 1px solid #000;
     padding-top: 105px;
 }
 
 
 /* logo-copy */
-.logo-copyright h5{
+.logo-copyright h5 {
     color: #313131;
     font-weight: 600;
     font-size: 20px;
 }
 
-.logo-copyright{
+.logo-copyright {
     display: flex;
     justify-content: space-between;
     border: none;
     gap: 60px;
     color: #000;
+    margin-top: 55px;
 }
 
-.container p{
+.container p {
     color: #313131;
 }
-    
 
 
-.container .logo-copyright a{
+
+.container .logo-copyright a {
     display: flex;
     margin-bottom: 15px;
     color: #313131;
     text-decoration: none;
 }
 
-.social-media{
-    margin: 55px;
-  display: flex;
-  gap: 14px;
+.social-media {
+    margin-top: 55px;
+    display: flex;
+    gap: 14px;
 }
 
+/* design responsivo */
+@media (max-width:480px) {
+    .container {
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .cta p, .testimonials h3{
+        width: 100%;
+    }
+
+    .brands,.about-us-video{
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .works .image-work{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .ready fieldset{
+        flex-direction: column;
+    }
+
+}
